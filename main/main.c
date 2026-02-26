@@ -21,7 +21,7 @@
 #include "esp_lcd_touch_ft5x06.h"
 #include "key.h"
 #include "temp.h"
-#include "wife.h"
+#include "wifi.h"
 
 //声明标志位
 extern bool switch_city_flag;
@@ -88,7 +88,7 @@ void Init()
     //ESP_ERROR_CHECK(i2c_master_init());
     Init_lcd();//iiC初始化也在里
     key_init();
-    wife_init("ChinaNet-Y24f","xkca9eec");
+    wifi_init("ChinaNet-Y24f","xkca9eec");
     create_binary_semaphore();
 }
 void app_main(void)

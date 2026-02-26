@@ -19,7 +19,7 @@
 #include "driver/timer.h"
 #include "esp_attr.h"  // 包含 IRAM_ATTR
 #include "freertos/FreeRTOS.h"
-#include "wife.h"
+#include "wifi.h"
 
 //event
 typedef enum{

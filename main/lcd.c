@@ -224,7 +224,7 @@ static void lvgl_page_update()
         {
             printf("连接wifi");
             all_type.touch_x=179;
-            wife_init((char *)wifi_list[wifi_num].ssid,passwd);
+            wifi_init((char *)wifi_list[wifi_num].ssid,passwd);
         }
     }
     if(all_type.page==PAGE_NO)//黑屏

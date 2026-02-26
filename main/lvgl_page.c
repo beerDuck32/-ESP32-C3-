@@ -10,7 +10,7 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "lvgl_page.h"
-#include "wife.h"
+#include "wifi.h"
 //声明图片对象指针
 lv_obj_t * obj_img_lock=NULL;
 lv_obj_t * obj_img_main=NULL;

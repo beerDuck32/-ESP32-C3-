@@ -17,7 +17,7 @@
 #include "lcd.h"
 #include "time.h"
 #include "temp.h"
-#include "wife.h"
+#include "wifi.h"
 
 void example_lvgl_demo_ui();
 bool page_unlock();
