@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "spi_lcd_touch",
-    "project_version":    "107d6e4-dirty",
+    "project_version":    "243654d-dirty",
     "project_path":       "D:/study/MCU/Espressif/Myproject/spi_lcd_touch",
     "idf_path":           "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6",
     "build_dir":          "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build",
@@ -835,8 +835,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__esp_lcd_touch_ft5x06", "lvgl__lvgl" ],
             "file": "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/esp-idf/main/libmain.a",
-            "sources": [ "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/wifi.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/font_passwd.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/img_wifi_off.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/img_wifi.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/font_weather_big.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/font_Led_sec.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/font_Led.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/font_alipuhui.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/main.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/temp.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/key.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/img_inlock.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/img_set.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/img_main.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/img_temp.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/img_weather.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_page.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lock.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lcd.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/myi2c.c" ],
-            "include_dirs": [ "." ]
+            "sources": [ "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/wifi.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/font_passwd.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/img_wifi_off.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/img_wifi.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/font_weather_big.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/font_Led_sec.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/font_Led.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/font_alipuhui.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/main.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/temp.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/key.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/img_inlock.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/img_set.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/img_main.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/img_temp.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/img_weather.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_page.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lvgl_img_font/lock.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/lcd.c", "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/main/myi2c.c" ],
+            "include_dirs": [ ".", "lvgl_img_font" ]
         },
         "mbedtls": {
             "alias": "idf::mbedtls",
@@ -2092,7 +2092,7 @@
             "priv_reqs": [ "espressif__esp_lcd_touch_ft5x06", "lvgl__lvgl" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__esp_lcd_touch_ft5x06", "lvgl__lvgl" ],
-            "include_dirs": [ "." ]
+            "include_dirs": [ ".", "lvgl_img_font" ]
         },
         "espressif__esp_lcd_touch_ft5x06": {
             "alias": "idf::espressif__esp_lcd_touch_ft5x06",
