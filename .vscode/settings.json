@@ -1,0 +1,6 @@
+{
+    "idf.portWin": "COM5",
+    "idf.flashType": "UART",
+    "C_Cpp.errorSquiggles": "disabled",
+    "idf.currentSetup": "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/"
+}

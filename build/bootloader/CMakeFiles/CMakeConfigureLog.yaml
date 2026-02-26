@@ -1,0 +1,660 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/project.cmake:505 (__project)"
+      - "CMakeLists.txt:58 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/project.cmake:505 (__project)"
+      - "CMakeLists.txt:58 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe 
+      Build flags: -march=rv32imc_zicsr_zifencei
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/3.30.2/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/project.cmake:505 (__project)"
+      - "CMakeLists.txt:58 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-g++.exe 
+      Build flags: -march=rv32imc_zicsr_zifencei
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/3.30.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/project.cmake:505 (__project)"
+      - "CMakeLists.txt:58 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      riscv32-esp-elf-gcc.exe (crosstool-NG esp-12.2.0_20230208) 12.2.0
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/project.cmake:505 (__project)"
+      - "CMakeLists.txt:58 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-gz8hx1"
+      binary: "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-gz8hx1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=rv32imc_zicsr_zifencei "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs "
+      CMAKE_MODULE_PATH: "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake;D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/third_party"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-gz8hx1'
+        
+        Run Build Command(s): D:/study/MCU/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_4ec95
+        [1/2] D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe   -march=rv32imc_zicsr_zifencei     -v -o CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj -c D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe
+        Target: riscv32-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=riscv32-esp-elf --prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf --with-headers=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-arch=rv32gc --with-abi=ilp32 --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) 
+        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4ec95.dir/'
+         d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/cc1.exe -quiet -v -imultilib rv32imc_zicsr_zifencei/ilp32 -iprefix d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/ D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4ec95.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei -version -o C:\\Users\\pjy\\AppData\\Local\\Temp\\cc4vr388.s
+        GNU C17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (riscv32-esp-elf)
+        	compiled by GNU C version 6.3.0 20170516, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/include"
+        ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/include-fixed"
+        ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/sys-include"
+        ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/include
+         d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/include-fixed
+         d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/sys-include
+         d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include
+        End of search list.
+        GNU C17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (riscv32-esp-elf)
+        	compiled by GNU C version 6.3.0 20170516, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: c22c009206876649eb965b6763f8fa01
+        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4ec95.dir/'
+         d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/as.exe -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj C:\\Users\\pjy\\AppData\\Local\\Temp\\cc4vr388.s
+        GNU assembler version 2.39.0 (riscv32-esp-elf) using BFD version (crosstool-NG esp-12.2.0_20230208) 2.39.0.20220915
+        COMPILER_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/
+        LIBRARY_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/
+        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs  -v CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj -o cmTC_4ec95   && cd ."
+        Using built-in specs.
+        Reading specs from d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/nosys.specs
+        rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+        COLLECT_GCC=D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe
+        COLLECT_LTO_WRAPPER=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/lto-wrapper.exe
+        Target: riscv32-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=riscv32-esp-elf --prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf --with-headers=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-arch=rv32gc --with-abi=ilp32 --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) 
+        COMPILER_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/
+        LIBRARY_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/
+        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-specs=nosys.specs' '-v' '-o' 'cmTC_4ec95' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_4ec95.'
+         d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/collect2.exe -plugin d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/liblto_plugin.dll -plugin-opt=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\pjy\\AppData\\Local\\Temp\\ccDVPu0h.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -melf32lriscv -o cmTC_4ec95 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc --start-group -lgcc -lc -lnosys --end-group\x0d
+        d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000010074\x0d
+        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-specs=nosys.specs' '-v' '-o' 'cmTC_4ec95' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_4ec95.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/project.cmake:505 (__project)"
+      - "CMakeLists.txt:58 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/include]
+          add: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/include-fixed]
+          add: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/sys-include]
+          add: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include]
+        end of search list found
+        collapse include dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/include] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/include]
+        collapse include dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/include-fixed] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/include-fixed]
+        collapse include dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/sys-include] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/sys-include]
+        collapse include dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include]
+        implicit include dirs: [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/include;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/include-fixed;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/sys-include;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/project.cmake:505 (__project)"
+      - "CMakeLists.txt:58 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-gz8hx1']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/study/MCU/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_4ec95]
+        ignore line: [[1/2] D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe   -march=rv32imc_zicsr_zifencei     -v -o CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj -c D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe]
+        ignore line: [Target: riscv32-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=riscv32-esp-elf --prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf --with-headers=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-arch=rv32gc --with-abi=ilp32 --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4ec95.dir/']
+        ignore line: [ d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/cc1.exe -quiet -v -imultilib rv32imc_zicsr_zifencei/ilp32 -iprefix d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/ D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4ec95.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei -version -o C:\\Users\\pjy\\AppData\\Local\\Temp\\cc4vr388.s]
+        ignore line: [GNU C17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (riscv32-esp-elf)]
+        ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/include"]
+        ignore line: [ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/sys-include"]
+        ignore line: [ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/include]
+        ignore line: [ d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/include-fixed]
+        ignore line: [ d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/sys-include]
+        ignore line: [ d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (riscv32-esp-elf)]
+        ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: c22c009206876649eb965b6763f8fa01]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4ec95.dir/']
+        ignore line: [ d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/as.exe -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj C:\\Users\\pjy\\AppData\\Local\\Temp\\cc4vr388.s]
+        ignore line: [GNU assembler version 2.39.0 (riscv32-esp-elf) using BFD version (crosstool-NG esp-12.2.0_20230208) 2.39.0.20220915]
+        ignore line: [COMPILER_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs  -v CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj -o cmTC_4ec95   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [Reading specs from d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/nosys.specs]
+        ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+        ignore line: [COLLECT_GCC=D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/lto-wrapper.exe]
+        ignore line: [Target: riscv32-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=riscv32-esp-elf --prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf --with-headers=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-arch=rv32gc --with-abi=ilp32 --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) ]
+        ignore line: [COMPILER_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-specs=nosys.specs' '-v' '-o' 'cmTC_4ec95' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_4ec95.']
+        link line: [ d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/collect2.exe -plugin d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/liblto_plugin.dll -plugin-opt=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\pjy\\AppData\\Local\\Temp\\ccDVPu0h.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -melf32lriscv -o cmTC_4ec95 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc --start-group -lgcc -lc -lnosys --end-group\x0d]
+          arg [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\pjy\\AppData\\Local\\Temp\\ccDVPu0h.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+          arg [-melf32lriscv] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_4ec95] ==> ignore
+          arg [-Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32] ==> dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32]
+          arg [-Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32] ==> dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32]
+          arg [-Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0] ==> dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0]
+          arg [-Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc] ==> dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc]
+          arg [-Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib] ==> dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib]
+          arg [CMakeFiles/cmTC_4ec95.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lnosys] ==> lib [nosys]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--start-group] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lnosys] ==> lib [nosys]
+          arg [--end-group] ==> ignore
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/ld.exe: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 0000000000010074\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-specs=nosys.specs' '-v' '-o' 'cmTC_4ec95' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_4ec95.'\x0d]
+        ignore line: []
+        ignore line: []
+        collapse library dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32]
+        collapse library dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32]
+        collapse library dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0]
+        collapse library dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc]
+        collapse library dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/lib]
+        implicit libs: [gcc;c;nosys;c;gcc;gcc;c;nosys]
+        implicit objs: []
+        implicit dirs: [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/project.cmake:505 (__project)"
+      - "CMakeLists.txt:58 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-zdjrho"
+      binary: "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-zdjrho"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-march=rv32imc_zicsr_zifencei "
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs "
+      CMAKE_MODULE_PATH: "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake;D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/third_party"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-zdjrho'
+        
+        Run Build Command(s): D:/study/MCU/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_cfd29
+        [1/2] D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-g++.exe   -march=rv32imc_zicsr_zifencei     -v -o CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj -c D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-g++.exe
+        Target: riscv32-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=riscv32-esp-elf --prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf --with-headers=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-arch=rv32gc --with-abi=ilp32 --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) 
+        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_cfd29.dir/'
+         d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/cc1plus.exe -quiet -v -imultilib rv32imc_zicsr_zifencei/ilp32 -iprefix d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/ D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_cfd29.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei -version -o C:\\Users\\pjy\\AppData\\Local\\Temp\\ccLjWllS.s
+        GNU C++17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (riscv32-esp-elf)
+        	compiled by GNU C version 6.3.0 20170516, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0"
+        ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0/riscv32-esp-elf/rv32imc_zicsr_zifencei/ilp32"
+        ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0/backward"
+        ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/include"
+        ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/include-fixed"
+        ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/sys-include"
+        ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0
+         d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0/riscv32-esp-elf/rv32imc_zicsr_zifencei/ilp32
+         d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0/backward
+         d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/include
+         d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/include-fixed
+         d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/sys-include
+         d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include
+        End of search list.
+        GNU C++17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (riscv32-esp-elf)
+        	compiled by GNU C version 6.3.0 20170516, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 88cd0daf3957d661cb43d51c1747713c
+        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_cfd29.dir/'
+         d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/as.exe -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\pjy\\AppData\\Local\\Temp\\ccLjWllS.s
+        GNU assembler version 2.39.0 (riscv32-esp-elf) using BFD version (crosstool-NG esp-12.2.0_20230208) 2.39.0.20220915
+        COMPILER_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/
+        LIBRARY_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/\x0d
+        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-g++.exe -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs  -v CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_cfd29   && cd ."
+        Using built-in specs.
+        Reading specs from d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/nosys.specs
+        rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+        COLLECT_GCC=D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-g++.exe
+        COLLECT_LTO_WRAPPER=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/lto-wrapper.exe
+        Target: riscv32-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=riscv32-esp-elf --prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf --with-headers=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-arch=rv32gc --with-abi=ilp32 --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) 
+        COMPILER_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/
+        LIBRARY_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/;d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/
+        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-specs=nosys.specs' '-v' '-o' 'cmTC_cfd29' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_cfd29.'
+         d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/collect2.exe -plugin d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/liblto_plugin.dll -plugin-opt=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\pjy\\AppData\\Local\\Temp\\cc9B6yj2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -melf32lriscv -o cmTC_cfd29 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc --start-group -lgcc -lc -lnosys --end-group\x0d
+        d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000010074\x0d
+        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-specs=nosys.specs' '-v' '-o' 'cmTC_cfd29' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_cfd29.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/project.cmake:505 (__project)"
+      - "CMakeLists.txt:58 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0]
+          add: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0/riscv32-esp-elf/rv32imc_zicsr_zifencei/ilp32]
+          add: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0/backward]
+          add: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/include]
+          add: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/include-fixed]
+          add: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/sys-include]
+          add: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include]
+        end of search list found
+        collapse include dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include/c++/12.2.0]
+        collapse include dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0/riscv32-esp-elf/rv32imc_zicsr_zifencei/ilp32] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include/c++/12.2.0/riscv32-esp-elf/rv32imc_zicsr_zifencei/ilp32]
+        collapse include dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0/backward] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include/c++/12.2.0/backward]
+        collapse include dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/include] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/include]
+        collapse include dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/include-fixed] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/include-fixed]
+        collapse include dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/sys-include] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/sys-include]
+        collapse include dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include]
+        implicit include dirs: [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include/c++/12.2.0;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include/c++/12.2.0/riscv32-esp-elf/rv32imc_zicsr_zifencei/ilp32;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include/c++/12.2.0/backward;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/include;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/include-fixed;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/sys-include;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/project.cmake:505 (__project)"
+      - "CMakeLists.txt:58 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-zdjrho']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/study/MCU/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_cfd29]
+        ignore line: [[1/2] D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-g++.exe   -march=rv32imc_zicsr_zifencei     -v -o CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj -c D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-g++.exe]
+        ignore line: [Target: riscv32-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=riscv32-esp-elf --prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf --with-headers=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-arch=rv32gc --with-abi=ilp32 --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_cfd29.dir/']
+        ignore line: [ d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/cc1plus.exe -quiet -v -imultilib rv32imc_zicsr_zifencei/ilp32 -iprefix d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/ D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_cfd29.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei -version -o C:\\Users\\pjy\\AppData\\Local\\Temp\\ccLjWllS.s]
+        ignore line: [GNU C++17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (riscv32-esp-elf)]
+        ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0"]
+        ignore line: [ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0/riscv32-esp-elf/rv32imc_zicsr_zifencei/ilp32"]
+        ignore line: [ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0/backward"]
+        ignore line: [ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/include"]
+        ignore line: [ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/sys-include"]
+        ignore line: [ignoring duplicate directory "d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/../../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0]
+        ignore line: [ d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0/riscv32-esp-elf/rv32imc_zicsr_zifencei/ilp32]
+        ignore line: [ d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include/c++/12.2.0/backward]
+        ignore line: [ d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/include]
+        ignore line: [ d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/include-fixed]
+        ignore line: [ d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/sys-include]
+        ignore line: [ d:\\study\\mcu\\espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (crosstool-NG esp-12.2.0_20230208) version 12.2.0 (riscv32-esp-elf)]
+        ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 88cd0daf3957d661cb43d51c1747713c]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_cfd29.dir/']
+        ignore line: [ d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/as.exe -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\pjy\\AppData\\Local\\Temp\\ccLjWllS.s]
+        ignore line: [GNU assembler version 2.39.0 (riscv32-esp-elf) using BFD version (crosstool-NG esp-12.2.0_20230208) 2.39.0.20220915]
+        ignore line: [COMPILER_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-g++.exe -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs  -v CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_cfd29   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [Reading specs from d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/nosys.specs]
+        ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+        ignore line: [COLLECT_GCC=D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/lto-wrapper.exe]
+        ignore line: [Target: riscv32-esp-elf]
+        ignore line: [Configured with: /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=riscv32-esp-elf --prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf --with-headers=/builds/idf/crosstool-NG/builds/riscv32-esp-elf/riscv32-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-arch=rv32gc --with-abi=ilp32 --with-pkgversion='crosstool-NG esp-12.2.0_20230208' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/riscv32-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes --with-gnu-ld]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.0 (crosstool-NG esp-12.2.0_20230208) ]
+        ignore line: [COMPILER_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/]
+        ignore line: [LIBRARY_PATH=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/]
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-specs=nosys.specs' '-v' '-o' 'cmTC_cfd29' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_cfd29.']
+        link line: [ d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/collect2.exe -plugin d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/liblto_plugin.dll -plugin-opt=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\pjy\\AppData\\Local\\Temp\\cc9B6yj2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -melf32lriscv -o cmTC_cfd29 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0 -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc -Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc --start-group -lgcc -lc -lnosys --end-group\x0d]
+          arg [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/12.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\pjy\\AppData\\Local\\Temp\\cc9B6yj2.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+          arg [-melf32lriscv] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_cfd29] ==> ignore
+          arg [-Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32] ==> dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32]
+          arg [-Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32] ==> dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32]
+          arg [-Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0] ==> dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0]
+          arg [-Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc] ==> dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc]
+          arg [-Ld:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib] ==> dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib]
+          arg [CMakeFiles/cmTC_cfd29.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lnosys] ==> lib [nosys]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--start-group] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lnosys] ==> lib [nosys]
+          arg [--end-group] ==> ignore
+        ignore line: [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/ld.exe: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 0000000000010074\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-specs=nosys.specs' '-v' '-o' 'cmTC_cfd29' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_cfd29.'\x0d]
+        ignore line: []
+        ignore line: []
+        collapse library dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32]
+        collapse library dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32]
+        collapse library dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0]
+        collapse library dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc]
+        collapse library dir [d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib] ==> [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/lib]
+        implicit libs: [stdc++;m;gcc;c;nosys;c;gcc;gcc;c;nosys]
+        implicit objs: []
+        implicit dirs: [D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/12.2.0;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/lib/gcc;D:/study/MCU/Espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/riscv32-esp-elf/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/CMakeLists.txt:257 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-gqjk3u"
+      binary: "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-gqjk3u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=rv32imc_zicsr_zifencei "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs "
+      CMAKE_MODULE_PATH: "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake;D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/third_party"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-gqjk3u'
+        
+        Run Build Command(s): D:/study/MCU/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_adbf2
+        [1/2] D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe   -march=rv32imc_zicsr_zifencei -o CMakeFiles/cmTC_adbf2.dir/CheckIncludeFile.c.obj -c D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-gqjk3u/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs CMakeFiles/cmTC_adbf2.dir/CheckIncludeFile.c.obj -o cmTC_adbf2   && cd ."
+        d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000010074\x0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/CMakeLists.txt:257 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-d3ebkl"
+      binary: "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-d3ebkl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=rv32imc_zicsr_zifencei "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs "
+      CMAKE_MODULE_PATH: "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake;D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/third_party"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-d3ebkl'
+        
+        Run Build Command(s): D:/study/MCU/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_d7b2d
+        [1/2] D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe   -march=rv32imc_zicsr_zifencei -o CMakeFiles/cmTC_d7b2d.dir/CheckIncludeFile.c.obj -c D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-d3ebkl/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs CMakeFiles/cmTC_d7b2d.dir/CheckIncludeFile.c.obj -o cmTC_d7b2d   && cd ."
+        d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000010074\x0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CheckTypeSize.cmake:253 (check_include_file)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/CMakeLists.txt:257 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-l2yc3r"
+      binary: "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-l2yc3r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=rv32imc_zicsr_zifencei "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs "
+      CMAKE_MODULE_PATH: "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake;D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/third_party"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-l2yc3r'
+        
+        Run Build Command(s): D:/study/MCU/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_82190
+        [1/2] D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe   -march=rv32imc_zicsr_zifencei -o CMakeFiles/cmTC_82190.dir/CheckIncludeFile.c.obj -c D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-l2yc3r/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs CMakeFiles/cmTC_82190.dir/CheckIncludeFile.c.obj -o cmTC_82190   && cd ."
+        d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000010074\x0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "D:/study/MCU/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/CMakeLists.txt:257 (check_type_size)"
+    checks:
+      - "Check size of time_t"
+    directories:
+      source: "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-djkkoe"
+      binary: "D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-djkkoe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=rv32imc_zicsr_zifencei "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs "
+      CMAKE_MODULE_PATH: "D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake;D:/study/MCU/Espressif/frameworks/esp-idf-v5.1.6/tools/cmake/third_party"
+    buildResult:
+      variable: "HAVE_TIME_T_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-djkkoe'
+        
+        Run Build Command(s): D:/study/MCU/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_8702c
+        [1/2] D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe   -march=rv32imc_zicsr_zifencei -o CMakeFiles/cmTC_8702c.dir/TIME_T_SIZE.c.obj -c D:/study/MCU/Espressif/Myproject/spi_lcd_touch/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-djkkoe/TIME_T_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\study\\MCU\\Espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs CMakeFiles/cmTC_8702c.dir/TIME_T_SIZE.c.obj -o cmTC_8702c   && cd ."
+        d:/study/mcu/espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000010094\x0d
+        
+      exitCode: 0
+...

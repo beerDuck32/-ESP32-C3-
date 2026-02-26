@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:IDF_PATH}/components/**",
+                "${workspaceFolder}/managed_components/**", // 索引LVGL/FT5x06等依赖
+                "${env:IDF_PATH}/tools/**"
+            ],
+            "defines": [
+                "CONFIG_IDF_TARGET_ESP32",
+                "ESP_PLATFORM"
+            ],
+            "compilerPath": "${env:IDF_PATH}/tools/tools/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json" // 关键：通过编译命令自动解析路径
+        }
+    ],
+    "version": 4
+}
